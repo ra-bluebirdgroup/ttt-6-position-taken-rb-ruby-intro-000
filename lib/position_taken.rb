@@ -4,9 +4,9 @@ index = 0
 
 def position_taken?(array, index)
  array.each.with_index(1) do |value, index|
-   if value == " " || "" || nil
+   if value != "X" || "O"
      puts "false"
-   elsif value == "X" || "O"
+   else 
      puts "true"
     end
   end
