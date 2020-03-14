@@ -4,7 +4,7 @@ index = 0
 
 def position_taken?(array, index)
  array.each.with_index(1) do |value, idx|
-   if idx = "" || " "
+   if idx = "" || " " || nil
      return false
      puts "false"
    elsif idx = "X" || "0"
