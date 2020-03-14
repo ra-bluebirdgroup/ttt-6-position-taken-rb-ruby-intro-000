@@ -1,5 +1,5 @@
 # code your #position_taken? method here!
-board = [""]
+board = []
 index = 0
 
 def position_taken?(array, index)
@@ -7,9 +7,11 @@ def position_taken?(array, index)
    if idx = "" || " "
      return false
      puts "false"
-   else
+   elsif idx = "O" || "X"
      return true
      puts "True"
+   else
+     return nil 
    end
   end
   puts array[0]
