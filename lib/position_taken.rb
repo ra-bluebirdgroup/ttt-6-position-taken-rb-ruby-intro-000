@@ -16,4 +16,4 @@ def position_taken?(array, index)
  end
 
 
-position_taken?(board)
+position_taken?(board, index)
