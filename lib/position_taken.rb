@@ -1,13 +1,13 @@
 # code your #position_taken? method here!
-board = []
+board = ["X"]
 index = 0
 
 def position_taken?(array, index)
  array.each.with_index(1) do |value, index|
    if value == " " || "" || nil
-     return false
+     puts "false"
    elsif value == "X" || "O"
-     return true
+     puts "true"
     end
   end
 
