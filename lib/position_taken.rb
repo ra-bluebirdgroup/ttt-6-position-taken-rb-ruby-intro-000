@@ -6,8 +6,11 @@ def position_taken?(array, index)
  array.each.with_index(1) do |value, idx|
    if value = "X" || "O"
      return true
-   else
+   elsif value = " " || "" || nil
      return false
+
+   else
+     return false 
     end
   end
 
