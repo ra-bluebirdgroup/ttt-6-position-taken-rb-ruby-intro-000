@@ -7,7 +7,7 @@ def position_taken?(array, index)
    if idx = "" || " "
      return false
      puts "false"
-   elsif idx = "0" || "X"
+   elsif idx = "X" || "O"
      return true
      puts "True"
    else
