@@ -2,7 +2,7 @@
 board = []
 index = 0
 
-def position_taken?(array, index)
+def position_taken?(array)
  array.each.with_index(1) do |value, index|
    if index = "" || " "
      return false
@@ -10,7 +10,7 @@ def position_taken?(array, index)
      return true
    end
   end
-  puts index 
+  puts
  end
 
 
