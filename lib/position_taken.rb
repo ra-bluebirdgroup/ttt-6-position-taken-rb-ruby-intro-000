@@ -4,5 +4,8 @@ index = 0
 
 def position_taken?(board, index)
  if board[] == "" || " "
-
-end
+   puts false
+ else
+   puts true
+ end
+end 
