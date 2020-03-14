@@ -5,10 +5,12 @@ index = 0
 def position_taken?(array, index)
  array.each.with_index(1) do |value, index|
    if index = "" || " "
-     return false end 
+     return false
    else
      return true
+   end
+  end
  end
-end
+
 
 position_taken?(board, index)
