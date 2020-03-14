@@ -3,7 +3,7 @@ board = []
 index = 0
 
 def position_taken?(array, index)
- index = array.each.with_index(1) do |value, idx|
+ array.each.with_index(1) do |value, index|
    if value == " " || "" || nil
      return false
    elsif value == "X" || "O"
