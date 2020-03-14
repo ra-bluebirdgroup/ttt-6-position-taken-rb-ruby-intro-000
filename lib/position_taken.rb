@@ -5,11 +5,11 @@ index = 0
 def position_taken?(array, index)
  array.each.with_index(1) do |value, index|
    if value != "X" || "O"
-     puts "false"
-   else
      puts "true"
+   else
+     puts "false"
    end
-  end 
+  end
  end
 
 
