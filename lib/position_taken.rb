@@ -9,7 +9,8 @@ def position_taken?(array, index)
      puts "false"
      end
    end
-
+   
+array.each.with_index(1) do |value, idx|
    if idx ="X" || "O"
      return true
      puts "True"
