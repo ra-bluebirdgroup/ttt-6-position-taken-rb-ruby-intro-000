@@ -10,7 +10,7 @@ def position_taken?(array)
      return true
    end
   end
-  puts arra[0]
+  puts array[0]
  end
 
 
