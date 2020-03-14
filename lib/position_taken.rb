@@ -7,6 +7,8 @@ def position_taken?(array, index)
    if idx != "X" || "O"
      return false
      puts "false"
+   else
+     return true 
      end
    end
 
