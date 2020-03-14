@@ -6,7 +6,7 @@ def position_taken?(array, index)
  array.each.with_index(1) do |value, index|
    if value != "X" || "O"
      puts "true"
-     return true 
+     return true
    else
      puts "false"
      return false 
