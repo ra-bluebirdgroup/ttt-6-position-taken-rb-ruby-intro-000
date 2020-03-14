@@ -4,10 +4,10 @@ index = 0
 
 def position_taken?(array, index)
  array.each.with_index(1) do |value, idx|
-   if idx == "" || " " || nil
+   if idx = "" || " " || nil
      return false
      puts "false"
-   else idx == "X" || "0"
+   else idx ="X" || "0"
      return true
      puts "True"
    end
