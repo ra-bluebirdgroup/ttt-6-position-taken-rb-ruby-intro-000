@@ -4,5 +4,5 @@ index = 0
 
 def position_taken (board, index)
  if board[] == "" || " "
-   
+   input = board[].push
 end
