@@ -8,6 +8,7 @@ def position_taken?(board, index)
  else
    puts true
  end
+ end
 end
 
 position_taken?(board, index)
