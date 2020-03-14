@@ -8,9 +8,8 @@ def position_taken?(array, index)
      puts "false"
    else
      puts "true"
-  end
-
-  #puts array[0]
+   end
+  end 
  end
 
 
